@@ -1,15 +1,6 @@
 import java.io.*;
 import java.util.*;
 
-/**
- * Desafio Extra - A Corrida da Eficiencia (Projeto e Analise de Algoritmos)
- * Algoritmos: Busca Linear, Busca Binaria, Selection Sort, Merge Sort.
- * Gera: dados_brutos.csv (todas as execucoes) e resumo.csv (media das 3 execucoes validas).
- *
- * Compilar: javac Main.java
- * Executar: java Main            (n ate 100.000)
- *           java Main 500000     (inclui n = 500.000; Selection Sort e ignorado nesse tamanho)
- */
 public class Main {
 
     static long comparacoes, movimentos;
